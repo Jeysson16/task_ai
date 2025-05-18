@@ -1,15 +1,12 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
 from peft import get_peft_model, LoraConfig, TaskType
 from datasets import load_dataset
-from transformers import Trainer, TrainingArguments
 import torch
 import os
 
-# IDs y directorios
-BASE_MODEL_ID = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+BASE_MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 OUTPUT_DIR = "lora-llm-finetuned"
 
-# Carga tokenizer y modelo en fp16 sin device_map para evitar meta device
 tokenizer = AutoTokenizer.from_pretrained(
     BASE_MODEL_ID,
     use_fast=True,
@@ -21,21 +18,18 @@ model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.float16,
     low_cpu_mem_usage=True,
     trust_remote_code=True
-).cuda()  # Asegura que el modelo esté completamente en la GPU
+).cuda()
 
-# Aplica LoRA
 lora_config = LoraConfig(
     task_type=TaskType.CAUSAL_LM,
     r=8,
     lora_alpha=16,
     lora_dropout=0.05
 )
-model = get_peft_model(model, lora_config).cuda()  # También pasa el modelo LoRA a GPU
+model = get_peft_model(model, lora_config).cuda()
 
-# Dataset
-dataset = load_dataset("json", data_files="fine_tune_data.jsonl", split="train")
+dataset = load_dataset("json", data_files="data/fine_tune_data.jsonl", split="train")
 
-# Tokenización
 def tokenize_batch(examples):
     tokens = tokenizer(
         examples["content"],
@@ -48,7 +42,6 @@ def tokenize_batch(examples):
 
 tokenized = dataset.map(tokenize_batch, batched=True)
 
-# Entrenamiento
 training_args = TrainingArguments(
     output_dir=OUTPUT_DIR,
     per_device_train_batch_size=1,
@@ -58,6 +51,7 @@ training_args = TrainingArguments(
     num_train_epochs=3,
     logging_steps=50,
     save_total_limit=2,
+    save_strategy="epoch",
     report_to="none"
 )
 
@@ -65,11 +59,12 @@ trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=tokenized,
-    tokenizer=tokenizer
+    tokenizer=tokenizer,
+    remove_unused_columns=False
 )
 
 if __name__ == "__main__":
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    trainer.train()
+    trainer.train(resume_from_checkpoint=True)
     trainer.save_model(OUTPUT_DIR)
     print(f"✅ Pesos LoRA guardados en {OUTPUT_DIR}")
