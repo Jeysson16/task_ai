@@ -1,0 +1,501 @@
+user_id,goal_id,task_id,task_title,goal_priority,goal_progress,scheduled_hour,available_morning,available_afternoon,available_evening,has_emergency,task_completed,recommended_action,recommended_hour
+user_010,goal_020,task_001,Reunión con el equipo,2,0.52,12,1,1,1,0,1,reschedule_later_today,17
+user_002,goal_027,task_002,Enviar correo al cliente,4,0.03,18,0,1,1,1,0,reschedule_later_today,18
+user_003,goal_028,task_003,Pagar facturas bancarias,3,0.85,7,1,1,0,0,0,do_now,7
+user_010,goal_013,task_004,Leer un libro,1,0.03,10,0,1,0,1,1,move_to_next_week,15
+user_006,goal_016,task_005,Llamar a mamá,2,0.18,6,1,1,1,0,0,do_now,6
+user_008,goal_032,task_006,Ordenar escritorio,1,0.23,14,1,1,0,0,0,reschedule_later_today,14
+user_004,goal_021,task_007,Enviar invitaciones,4,0.79,15,1,1,1,0,1,reschedule_later_today,17
+user_004,goal_021,task_008,Enviar invitaciones,4,0.79,9,1,1,1,0,0,reschedule_later_today,9
+user_006,goal_013,task_009,Enviar correo al cliente,2,0.11,20,1,0,0,0,0,move_to_next_week,20
+user_010,goal_011,task_010,Enviar correo al cliente,4,0.65,20,0,1,0,0,0,move_to_tomorrow,13
+user_004,goal_007,task_011,Comprar libros,5,0.44,22,0,1,1,1,0,move_to_next_week,22
+user_004,goal_026,task_012,Barrer el patio,3,0.20,11,0,1,0,0,0,move_to_next_week,12
+user_008,goal_030,task_013,Enviar correo al cliente,5,0.83,10,0,0,1,0,1,move_to_tomorrow,18
+user_010,goal_020,task_014,Entrenar mascota,4,0.52,13,1,1,0,0,0,move_to_next_week,18
+user_001,goal_004,task_015,Limpiar la oficina,3,0.52,10,0,0,1,1,0,move_to_tomorrow,18
+user_001,goal_003,task_016,Enviar invitaciones,4,0.47,17,0,1,1,0,0,extend_duration,17
+user_009,goal_022,task_017,Enviar correo al cliente,3,0.70,19,1,1,0,0,0,extend_duration,19
+user_002,goal_025,task_018,Hacer ejercicio,5,0.42,8,0,1,1,0,0,move_to_tomorrow,13
+user_007,goal_023,task_019,Comprar víveres,1,0.08,15,1,1,1,1,0,move_to_tomorrow,15
+user_002,goal_024,task_020,Preparar la cena,1,0.19,22,0,1,1,1,1,move_to_next_week,22
+user_005,goal_027,task_021,Sacar la basura,2,0.54,9,0,1,1,0,0,do_now,9
+user_007,goal_023,task_022,Llamar a mamá,1,0.08,16,1,0,1,0,0,extend_duration,16
+user_003,goal_010,task_023,Enviar correo al cliente,2,0.95,8,0,0,1,0,0,move_to_tomorrow,23
+user_006,goal_017,task_024,Diseñar logotipo,2,0.38,13,0,1,1,0,0,do_now,13
+user_001,goal_002,task_025,Enviar invitaciones,4,0.79,13,1,1,1,0,1,reschedule_later_today,17
+user_009,goal_031,task_026,Reunión con el equipo,2,0.46,6,0,0,1,0,1,reschedule_later_today,18
+user_002,goal_006,task_027,Lavar ropa,4,0.11,6,0,1,0,0,0,extend_duration,6
+user_002,goal_024,task_028,Comprar víveres,1,0.19,7,0,1,1,0,0,move_to_next_week,7
+user_009,goal_022,task_029,Limpiar la oficina,3,0.70,19,1,0,0,0,0,move_to_next_week,19
+user_001,goal_003,task_030,Enviar invitaciones,4,0.47,12,0,0,1,1,1,move_to_next_week,22
+user_001,goal_005,task_031,Visitar abuelos,4,0.45,16,0,0,1,1,1,move_to_next_week,21
+user_002,goal_024,task_032,Pagar servicios,5,0.19,17,1,0,1,0,0,move_to_tomorrow,18
+user_004,goal_006,task_033,Enviar correo al cliente,4,0.52,18,0,0,1,0,1,reschedule_later_today,18
+user_002,goal_026,task_034,Visitar abuelos,4,0.20,13,1,0,1,0,0,move_to_next_week,20
+user_003,goal_011,task_035,Enviar correo al cliente,3,0.29,23,1,0,1,0,0,extend_duration,23
+user_009,goal_031,task_036,Leer un libro,4,0.46,19,1,0,1,0,0,extend_duration,19
+user_010,goal_035,task_037,Cocinar desayuno,5,0.67,15,1,0,1,0,0,reschedule_later_today,23
+user_009,goal_031,task_038,Enviar correo al cliente,4,0.46,15,0,0,1,0,1,move_to_next_week,15
+user_001,goal_001,task_039,Revisar informes,2,0.47,11,0,0,1,0,1,reschedule_later_today,23
+user_004,goal_027,task_040,Enviar correo al cliente,3,0.57,12,1,1,1,0,0,do_now,12
+user_001,goal_002,task_041,Preparar presentación,4,0.79,18,1,0,0,0,0,move_to_next_week,18
+user_005,goal_010,task_042,Llamar a mamá,5,0.88,10,0,0,1,0,1,reschedule_later_today,23
+user_003,goal_011,task_043,Diseñar logotipo,3,0.29,16,0,1,0,1,0,move_to_tomorrow,14
+user_005,goal_010,task_044,Comprar víveres,5,0.88,16,0,0,1,1,0,move_to_next_week,19
+user_008,goal_032,task_045,Enviar correo al cliente,5,0.83,17,1,1,1,0,0,reschedule_later_today,17
+user_010,goal_035,task_046,Enviar correo al cliente,5,0.67,13,0,1,0,0,0,move_to_tomorrow,20
+user_005,goal_009,task_047,Preparar la cena,1,0.79,14,0,0,1,1,1,move_to_next_week,18
+user_004,goal_027,task_048,Enviar correo al cliente,3,0.57,8,0,1,0,0,0,move_to_tomorrow,12
+user_008,goal_032,task_049,Enviar correo al cliente,5,0.83,21,0,0,1,0,0,extend_duration,21
+user_006,goal_016,task_050,Pagar cuentas bancarias,2,0.38,12,0,1,0,0,1,move_to_tomorrow,14
+user_003,goal_013,task_051,Enviar correo al cliente,3,0.95,15,0,0,1,0,0,extend_duration,15
+user_004,goal_026,task_052,Visitar abuelos,3,0.20,16,1,0,1,0,1,reschedule_later_today,18
+user_007,goal_028,task_053,Estudiar matemáticas,3,0.08,23,1,1,1,0,0,reschedule_later_today,23
+user_009,goal_025,task_054,Enviar correo al cliente,3,0.13,23,0,0,1,1,0,move_to_next_week,18
+user_009,goal_031,task_055,Cocinar desayuno,4,0.46,10,1,0,1,0,0,move_to_next_week,22
+user_010,goal_013,task_056,Comprar libro,4,0.65,23,1,1,1,0,1,reschedule_later_today,23
+user_007,goal_023,task_057,Estudiar algoritmo,1,0.08,19,0,0,1,0,0,extend_duration,19
+user_004,goal_026,task_058,Enviar correo al cliente,3,0.20,12,0,0,1,1,0,move_to_next_week,12
+user_001,goal_001,task_059,Comprar víveres,2,0.47,6,0,0,1,0,0,move_to_tomorrow,18
+user_001,goal_002,task_060,Enviar invitaciones,4,0.79,22,1,0,0,1,1,move_to_next_week,22
+user_004,goal_026,task_061,Enviar correo al cliente,3,0.20,20,0,1,0,0,0,extend_duration,20
+user_007,goal_015,task_062,Comprar víveres,3,0.11,13,1,0,0,0,0,do_now,13
+user_008,goal_029,task_063,Llamar a mamá,5,0.31,22,0,1,1,0,0,extend_duration,22
+user_001,goal_002,task_064,Pagar cuentas bancarias,4,0.79,14,1,1,0,0,0,move_to_next_week,15
+user_008,goal_033,task_065,Enviar correo al cliente,4,0.16,18,1,1,0,0,0,extend_duration,18
+user_002,goal_023,task_066,Cocinar desayuno,1,0.08,17,1,1,0,0,0,move_to_tomorrow,18
+user_006,goal_017,task_067,Enviar correo al cliente,2,0.38,21,0,0,1,0,0,extend_duration,21
+user_002,goal_023,task_068,Comprar víveres,1,0.08,13,1,1,1,0,1,reschedule_later_today,18
+user_001,goal_001,task_069,Enviar invitaciones,2,0.47,17,1,0,0,0,0,do_now,17
+user_002,goal_024,task_070,Enviar invitaciones,5,0.19,18,1,0,1,1,0,move_to_tomorrow,18
+user_001,goal_002,task_071,Enviar invitaciones,4,0.79,16,0,1,0,0,0,move_to_next_week,16
+user_010,goal_040,task_072,Enviar invitaciones,1,0.23,22,0,0,1,0,0,extend_duration,22
+user_001,goal_002,task_073,Enviar correo al cliente,4,0.79,18,0,1,0,1,0,move_to_next_week,18
+user_003,goal_012,task_074,Cocinar desayuno,3,0.29,20,0,0,1,0,0,move_to_tomorrow,19
+user_004,goal_026,task_075,Preparar informe,3,0.20,20,0,1,1,0,0,extend_duration,20
+user_007,goal_028,task_076,Comprar víveres,3,0.08,20,1,0,1,0,0,move_to_tomorrow,21
+user_004,goal_007,task_077,Aprender guitarra,5,0.42,15,0,0,1,0,0,extend_duration,15
+user_010,goal_035,task_078,Hacer picnic,4,0.67,17,1,0,0,0,0,move_to_next_week,17
+user_005,goal_025,task_079,Comprar víveres,2,0.13,10,0,0,1,0,0,move_to_next_week,18
+user_008,goal_031,task_080,Comprar víveres,4,0.46,18,0,1,1,0,0,move_to_next_week,18
+user_004,goal_027,task_081,Enviar correo al cliente,3,0.57,11,1,0,0,0,0,extend_duration,11
+user_003,goal_011,task_082,Enviar correo al cliente,3,0.29,10,1,1,1,0,1,reschedule_later_today,12
+user_001,goal_005,task_083,Verificar correos,4,0.45,22,1,0,0,0,0,move_to_next_week,22
+user_002,goal_027,task_084,Limpiar la oficina,1,0.03,10,1,1,0,0,1,move_to_next_week,19
+user_001,goal_005,task_085,Cocinar desayuno,4,0.45,20,0,0,1,1,0,move_to_next_week,22
+user_009,goal_025,task_086,Enviar correo al cliente,3,0.13,19,0,1,0,0,0,move_to_tomorrow,18
+user_006,goal_016,task_087,Sacar la basura,2,0.38,8,1,1,1,0,0,do_now,8
+user_006,goal_014,task_088,Enviar correo al cliente,5,0.59,11,1,0,1,0,1,reschedule_later_today,23
+user_001,goal_003,task_089,Enviar invitaciones,4,0.47,21,0,1,1,0,0,move_to_tomorrow,23
+user_002,goal_023,task_090,Comprar víveres,1,0.08,13,1,1,1,0,0,move_to_next_week,13
+user_002,goal_027,task_091,Enviar correo al cliente,4,0.03,7,1,1,1,0,0,do_now,7
+user_002,goal_024,task_092,Enviar correo al cliente,5,0.19,21,1,0,0,0,0,move_to_next_week,21
+user_004,goal_006,task_093,Enviar correo al cliente,4,0.52,14,0,1,0,0,0,extend_duration,14
+user_005,goal_009,task_094,Preparar la cena,1,0.79,10,0,0,1,0,1,reschedule_later_today,23
+user_007,goal_026,task_095,Salir a correr,5,0.11,10,0,1,1,0,0,extend_duration,10
+user_003,goal_011,task_096,Salir a correr,3,0.29,18,0,1,0,0,0,move_to_tomorrow,19
+user_007,goal_015,task_097,Hacer picnic,3,0.11,22,1,0,0,0,0,extend_duration,22
+user_004,goal_026,task_098,Enviar correo al cliente,3,0.20,21,0,0,1,0,0,extend_duration,21
+user_009,goal_025,task_099,Pagar servicios,3,0.13,15,0,0,1,0,0,move_to_next_week,15
+user_008,goal_032,task_100,Enviar correo al cliente,5,0.83,14,1,1,0,0,0,extend_duration,14
+user_008,goal_034,task_101,Sacar la basura,1,0.38,13,1,1,1,0,0,move_to_next_week,18
+user_008,goal_033,task_102,Enviar correo al cliente,4,0.16,22,1,1,0,0,0,extend_duration,22
+user_009,goal_030,task_103,Enviar correo al cliente,5,0.23,20,1,0,1,0,0,extend_duration,20
+user_008,goal_034,task_104,Enviar correo al cliente,1,0.38,22,1,1,1,0,0,reschedule_later_today,22
+user_010,goal_011,task_105,Preparar presentación,4,0.65,14,0,0,1,0,0,move_to_tomorrow,18
+user_005,goal_010,task_106,Leer un libro,5,0.88,14,0,0,1,1,0,move_to_next_week,18
+user_009,goal_025,task_107,Enviar invitaciones,3,0.13,19,1,0,1,0,0,move_to_tomorrow,19
+user_008,goal_030,task_108,Enviar correo al cliente,5,0.23,17,1,0,0,0,0,move_to_next_week,17
+user_001,goal_001,task_109,Actualizar software,2,0.47,17,0,0,1,1,0,move_to_tomorrow,21
+user_010,goal_034,task_110,Sacar la basura,4,0.59,20,0,0,1,0,0,extend_duration,20
+user_010,goal_040,task_111,Enviar correo al cliente,1,0.23,13,1,1,1,0,0,do_now,13
+user_010,goal_011,task_112,Aprender Python,4,0.65,18,0,0,1,0,0,move_to_next_week,21
+user_008,goal_030,task_113,Enviar correo al cliente,5,0.23,22,1,0,0,0,0,reschedule_later_today,22
+user_002,goal_024,task_114,Enviar correo al cliente,5,0.19,19,1,1,1,0,0,move_to_next_week,22
+user_010,goal_040,task_115,Comprar víveres,1,0.23,22,0,1,0,1,0,move_to_tomorrow,18
+user_009,goal_031,task_116,Enviar correo al cliente,4,0.46,13,1,1,1,0,0,reschedule_later_today,18
+user_009,goal_031,task_117,Preparar la cena,4,0.46,12,1,0,0,1,0,move_to_next_week,12
+user_001,goal_005,task_118,Enviar invitaciones,4,0.45,16,0,0,1,1,0,move_to_tomorrow,18
+user_005,goal_009,task_119,Preparar la cena,1,0.79,6,0,0,1,0,1,reschedule_later_today,18
+user_005,goal_010,task_120,Llamar a mamá,5,0.88,21,1,0,0,0,1,reschedule_later_today,23
+user_009,goal_031,task_121,Comprar víveres,4,0.46,21,0,1,1,0,0,move_to_tomorrow,23
+user_008,goal_032,task_122,Enviar correo al cliente,5,0.83,7,0,0,1,0,1,move_to_tomorrow,8
+user_010,goal_011,task_123,Leer un libro,4,0.65,20,1,0,0,0,0,move_to_tomorrow,21
+user_009,goal_025,task_124,Salir a correr,3,0.13,6,0,0,1,1,0,move_to_next_week,18
+user_006,goal_012,task_125,Revisar informes,5,0.29,21,0,0,1,0,0,move_to_tomorrow,22
+user_001,goal_005,task_126,Enviar invitaciones,4,0.45,14,1,0,0,0,0,do_now,14
+user_002,goal_006,task_127,Pagar servicios,4,0.11,6,1,0,0,1,0,move_to_next_week,18
+user_005,goal_009,task_128,Preparar la cena,1,0.79,19,0,0,1,1,0,move_to_next_week,20
+user_009,goal_022,task_129,Enviar correo al cliente,3,0.70,15,0,1,0,0,0,move_to_next_week,15
+user_004,goal_006,task_130,Enviar correo al cliente,4,0.52,20,0,1,0,0,0,extend_duration,20
+user_004,goal_026,task_131,Enviar correo al cliente,3,0.20,16,0,1,1,0,0,extend_duration,16
+user_008,goal_030,task_132,Preparar la cena,5,0.23,13,1,0,0,0,0,move_to_next_week,13
+user_008,goal_032,task_133,Enviar correo al cliente,5,0.83,15,1,1,1,0,0,extend_duration,15
+user_007,goal_023,task_134,Comprar víveres,1,0.08,12,0,0,1,0,0,move_to_next_week,18
+user_007,goal_026,task_135,Entrenar mascota,5,0.11,14,1,0,0,0,0,move_to_next_week,14
+user_005,goal_010,task_136,Llamar a mamá,5,0.88,14,0,0,1,1,0,move_to_tomorrow,18
+user_005,goal_025,task_137,Enviar invitaciones,2,0.13,6,0,0,1,0,0,move_to_next_week,20
+user_007,goal_028,task_138,Comprar víveres,3,0.08,14,1,0,1,0,1,reschedule_later_today,18
+user_010,goal_040,task_139,Llamar a mamá,1,0.23,14,0,1,1,0,0,move_to_tomorrow,17
+user_003,goal_011,task_140,Comprar víveres,3,0.29,10,1,1,1,0,0,move_to_next_week,12
+user_002,goal_023,task_141,Pagar servicios,1,0.08,11,0,1,0,0,0,move_to_next_week,11
+user_008,goal_031,task_142,Enviar correo al cliente,4,0.46,11,1,0,0,0,0,move_to_next_week,13
+user_002,goal_023,task_143,Salir a correr,1,0.08,14,1,1,1,0,0,move_to_tomorrow,14
+user_001,goal_004,task_144,Verificar correos,3,0.52,18,0,0,1,0,0,move_to_tomorrow,22
+user_004,goal_026,task_145,Enviar correo al cliente,3,0.20,16,0,0,1,0,0,extend_duration,16
+user_005,goal_025,task_146,Leer un libro,2,0.13,8,0,0,1,0,0,move_to_next_week,18
+user_005,goal_010,task_147,Llamar a mamá,5,0.88,15,1,0,1,1,0,move_to_next_week,16
+user_008,goal_033,task_148,Enviar correo al cliente,4,0.16,6,1,1,0,0,0,do_now,6
+user_007,goal_028,task_149,Comprar víveres,3,0.08,11,0,0,1,0,0,move_to_next_week,15
+user_008,goal_029,task_150,Salir a correr,5,0.31,22,1,1,1,0,0,move_to_next_week,18
+user_006,goal_018,task_151,Enviar invitaciones,4,0.50,15,0,1,0,0,0,extend_duration,15
+user_006,goal_019,task_152,Enviar correo al cliente,3,0.11,16,0,0,1,0,0,extend_duration,16
+user_004,goal_007,task_153,Pagar cuentas bancarias,5,0.42,17,0,0,1,0,0,extend_duration,17
+user_010,goal_040,task_154,Enviar invitaciones,1,0.23,22,1,0,1,0,0,move_to_tomorrow,22
+user_004,goal_027,task_155,Enviar correo al cliente,3,0.57,12,0,1,1,0,0,extend_duration,12
+user_008,goal_032,task_156,Llamar a mamá,5,0.83,16,0,1,1,0,0,move_to_tomorrow,17
+user_002,goal_023,task_157,Enviar correo al cliente,1,0.08,17,1,1,0,0,0,move_to_next_week,22
+user_010,goal_040,task_158,Enviar correo al cliente,1,0.23,13,1,0,0,0,0,move_to_tomorrow,15
+user_009,goal_022,task_159,Pagar cuentas bancarias,3,0.70,12,1,1,0,0,0,move_to_tomorrow,14
+user_008,goal_030,task_160,Actualizar software,5,0.23,22,1,1,0,0,0,extend_duration,22
+user_002,goal_027,task_161,Enviar invitaciones,4,0.03,22,1,0,0,0,0,extend_duration,22
+user_005,goal_010,task_162,Leer un libro,5,0.88,6,1,1,1,1,0,move_to_next_week,18
+user_009,goal_022,task_163,Llamar a mamá,3,0.70,18,0,0,1,0,0,move_to_tomorrow,19
+user_005,goal_010,task_164,Revisar informes,5,0.88,21,0,0,1,0,0,extend_duration,21
+user_001,goal_004,task_165,Enviar invitaciones,3,0.52,10,0,1,1,0,1,reschedule_later_today,12
+user_008,goal_030,task_166,Enviar correo al cliente,5,0.23,22,1,0,0,0,0,reschedule_later_today,22
+user_006,goal_018,task_167,Enviar correo al cliente,4,0.50,22,0,0,1,0,0,extend_duration,22
+user_001,goal_005,task_168,Enviar correo al cliente,4,0.45,17,1,0,1,0,0,move_to_next_week,17
+user_001,goal_003,task_169,Enviar correo al cliente,4,0.47,12,0,0,1,0,0,extend_duration,12
+user_004,goal_027,task_170,Actualizar software,3,0.57,16,0,1,0,0,0,extend_duration,16
+user_006,goal_013,task_171,Verificar correos,2,0.11,21,0,0,1,0,0,move_to_next_week,15
+user_006,goal_013,task_172,Enviar invitaciones,2,0.11,18,0,1,1,0,0,move_to_next_week,18
+user_009,goal_031,task_173,Enviar correo al cliente,4,0.46,16,0,0,1,0,0,move_to_next_week,17
+user_001,goal_005,task_174,Enviar correo al cliente,4,0.45,13,0,0,1,0,0,move_to_next_week,19
+user_010,goal_013,task_175,Enviar correo al cliente,4,0.65,20,1,0,0,0,0,move_to_next_week,22
+user_001,goal_005,task_176,Enviar correo al cliente,4,0.45,12,0,0,1,0,0,extend_duration,12
+user_009,goal_025,task_177,Enviar correo al cliente,3,0.13,13,0,1,0,0,0,move_to_tomorrow,19
+user_008,goal_033,task_178,Llamar a mamá,4,0.16,12,1,0,0,0,0,extend_duration,12
+user_001,goal_005,task_179,Enviar correo al cliente,4,0.45,6,1,0,0,0,0,do_now,6
+user_007,goal_023,task_180,Enviar correo al cliente,1,0.08,13,1,0,1,0,0,move_to_next_week,18
+user_010,goal_020,task_181,Enviar correo al cliente,1,0.23,10,1,0,0,0,1,reschedule_later_today,23
+user_008,goal_030,task_182,Comprar víveres,5,0.23,17,1,1,0,0,0,move_to_next_week,22
+user_001,goal_003,task_183,Pagar facturas bancarias,4,0.47,9,0,0,1,0,0,move_to_next_week,12
+user_003,goal_012,task_184,Aprender Python,3,0.29,19,0,0,1,0,0,move_to_tomorrow,21
+user_001,goal_003,task_185,Enviar invitaciones,4,0.47,19,0,0,1,0,0,move_to_next_week,23
+user_001,goal_001,task_186,Enviar invitaciones,2,0.47,13,1,1,0,1,0,move_to_next_week,13
+user_010,goal_040,task_187,Leer un libro,1,0.23,6,0,0,1,0,0,move_to_next_week,21
+user_005,goal_009,task_188,Leer un libro,2,0.54,20,0,0,1,0,0,move_to_next_week,22
+user_004,goal_007,task_189,Estudiar algoritmo,5,0.42,10,0,1,0,1,0,move_to_tomorrow,12
+user_010,goal_035,task_190,Sacar la basura,5,0.67,21,1,1,0,0,0,extend_duration,21
+user_001,goal_005,task_191,Enviar correo al cliente,4,0.45,22,0,0,1,0,0,move_to_next_week,23
+user_002,goal_023,task_192,Comprar víveres,1,0.08,18,0,0,1,0,0,move_to_tomorrow,18
+user_010,goal_035,task_193,Enviar invitaciones,5,0.67,6,1,0,0,0,1,reschedule_later_today,23
+user_010,goal_035,task_194,Cocinar desayuno,5,0.67,20,1,1,0,0,0,move_to_next_week,20
+user_010,goal_035,task_195,Enviar correo al cliente,5,0.67,6,1,0,0,0,1,do_now,6
+user_005,goal_025,task_196,Enviar invitaciones,2,0.13,22,0,0,1,0,0,move_to_next_week,18
+user_006,goal_017,task_197,Enviar invitaciones,2,0.38,11,0,1,0,0,0,move_to_next_week,11
+user_006,goal_017,task_198,Enviar correo al cliente,2,0.38,12,0,1,0,0,0,move_to_next_week,12
+user_007,goal_015,task_199,Enviar correo al cliente,3,0.11,15,1,0,0,0,0,move_to_next_week,15
+user_010,goal_035,task_200,Pagar servicios,5,0.67,8,1,0,0,0,1,reschedule_later_today,10
+user_001,goal_003,task_201,Pagar facturas bancarias,4,0.47,11,0,0,1,0,0,move_to_next_week,22
+user_010,goal_040,task_202,Enviar invitaciones,1,0.23,15,0,1,0,0,0,move_to_tomorrow,17
+user_005,goal_027,task_203,Enviar correo al cliente,3,0.57,6,0,1,0,1,0,move_to_next_week,6
+user_001,goal_005,task_204,Enviar correo al cliente,4,0.45,12,0,0,1,0,0,move_to_next_week,18
+user_004,goal_027,task_205,Revisar informes,3,0.57,10,0,0,1,0,1,reschedule_later_today,18
+user_005,goal_009,task_206,Verificar correos,2,0.54,8,1,0,0,0,0,do_now,8
+user_002,goal_027,task_207,Enviar correo al cliente,4,0.03,16,1,1,0,0,0,move_to_tomorrow,21
+user_003,goal_011,task_208,Reunión con el equipo,3,0.29,21,1,0,1,0,0,move_to_tomorrow,23
+user_008,goal_032,task_209,Verificar correos,5,0.83,20,1,1,1,0,0,extend_duration,20
+user_010,goal_040,task_210,Enviar invitaciones,1,0.23,18,1,1,1,0,0,move_to_tomorrow,20
+user_008,goal_032,task_211,Verificar correos,5,0.83,9,1,0,0,0,0,do_now,9
+user_004,goal_027,task_212,Visitar abuelos,3,0.57,18,1,0,0,0,0,do_now,18
+user_008,goal_032,task_213,Enviar correo al cliente,5,0.83,21,1,1,0,0,0,move_to_tomorrow,22
+user_005,goal_026,task_214,Enviar correo al cliente,2,0.54,7,1,1,0,0,0,do_now,7
+user_003,goal_011,task_215,Envíar invitaciones,3,0.29,9,1,1,1,0,1,reschedule_later_today,9
+user_009,goal_025,task_216,Enviar invitaciones,3,0.13,13,0,1,0,0,0,move_to_next_week,17
+user_006,goal_018,task_217,Pagar facturas bancarias,4,0.50,15,0,1,0,0,0,move_to_tomorrow,18
+user_001,goal_003,task_218,Enviar invitaciones,4,0.47,16,0,0,1,0,1,reschedule_later_today,18
+user_009,goal_030,task_219,Enviar correo al cliente,5,0.23,10,1,0,0,0,0,do_now,10
+user_002,goal_006,task_220,Enviar correo al cliente,4,0.11,15,0,0,1,0,0,move_to_tomorrow,15
+user_009,goal_025,task_221,Enviar invitaciones,3,0.13,20,0,0,1,0,0,move_to_next_week,22
+user_002,goal_025,task_222,Enviar correo al cliente,5,0.19,22,0,0,1,0,0,move_to_next_week,23
+user_006,goal_017,task_223,Enviar correo al cliente,2,0.38,19,0,1,0,0,0,move_to_next_week,19
+user_010,goal_035,task_224,Enviar invitaciones,5,0.67,22,1,1,0,0,0,extend_duration,22
+user_006,goal_018,task_225,Enviar invitaciones,4,0.50,10,0,0,1,0,0,extend_duration,10
+user_003,goal_012,task_226,Preparar presentación,3,0.29,12,1,0,0,0,0,move_to_tomorrow,12
+user_001,goal_005,task_227,Pagar facturas bancarias,4,0.45,16,1,0,0,0,0,do_now,16
+user_005,goal_009,task_228,Leer un libro,2,0.54,11,0,1,1,0,0,move_to_tomorrow,23
+user_006,goal_016,task_229,Enviar correo al cliente,2,0.38,21,0,1,0,0,0,move_to_next_week,21
+user_003,goal_011,task_230,Enviar invitaciones,3,0.29,12,0,1,1,0,0,move_to_next_week,15
+user_001,goal_003,task_231,Enviar invitaciones,4,0.47,6,1,1,0,0,0,do_now,6
+user_005,goal_009,task_232,Leer un libro,2,0.54,18,0,1,1,0,0,move_to_next_week,22
+user_005,goal_009,task_233,Preparar la cena,2,0.54,21,1,0,0,0,1,move_to_tomorrow,22
+user_005,goal_025,task_234,Leer un libro,2,0.13,20,0,0,1,0,0,move_to_tomorrow,21
+user_010,goal_040,task_235,Llamar a mamá,1,0.23,15,0,1,1,0,0,move_to_tomorrow,21
+user_005,goal_010,task_236,Leer un libro,5,0.88,6,1,1,1,0,1,reschedule_later_today,12
+user_005,goal_010,task_237,Limpiar la oficina,5,0.88,12,0,1,1,0,0,move_to_tomorrow,18
+user_007,goal_018,task_238,Preparar informe,3,0.11,22,1,0,1,0,0,move_to_next_week,18
+user_010,goal_040,task_239,Enviar correo al cliente,1,0.23,17,1,1,1,0,0,do_now,17
+user_002,goal_027,task_240,Enviar correo al cliente,4,0.03,7,1,1,1,0,1,do_now,7
+user_004,goal_006,task_241,Enviar correo al cliente,4,0.52,19,0,1,0,0,0,extend_duration,19
+user_008,goal_032,task_242,Llamar a mamá,5,0.83,8,0,0,1,0,0,move_to_tomorrow,18
+user_002,goal_025,task_243,Enviar invitaciones,5,0.19,20,1,1,1,0,0,move_to_next_week,22
+user_010,goal_035,task_244,Llamar a mamá,5,0.67,21,1,1,0,0,0,move_to_tomorrow,22
+user_010,goal_035,task_245,Enviar correo al cliente,5,0.67,9,0,1,0,0,0,move_to_tomorrow,19
+user_002,goal_027,task_246,Enviar correo al cliente,4,0.03,12,1,1,1,0,0,do_now,12
+user_001,goal_002,task_247,Enviar correo al cliente,4,0.79,14,1,0,0,0,0,do_now,14
+user_003,goal_011,task_248,Enviar correo al cliente,3,0.29,20,1,0,0,0,0,move_to_next_week,23
+user_009,goal_025,task_249,Enviar correo al cliente,3,0.13,20,1,1,1,0,0,move_to_tomorrow,22
+user_002,goal_024,task_250,Enviar correo al cliente,5,0.19,20,1,0,0,0,0,extend_duration,20
+user_009,goal_025,task_251,Enviar correo al cliente,3,0.13,21,0,1,0,0,0,move_to_next_week,23
+user_003,goal_011,task_252,Enviar invitaciones,3,0.29,20,1,0,0,0,1,reschedule_later_today,20
+user_001,goal_001,task_253,Enviar invitaciones,2,0.47,12,1,1,0,1,0,move_to_next_week,12
+user_009,goal_025,task_254,Enviar invitaciones,3,0.13,11,0,1,0,0,0,move_to_next_week,13
+user_002,goal_027,task_255,Enviar invitaciones,4,0.03,17,1,0,0,0,1,reschedule_later_today,22
+user_004,goal_021,task_256,Enviar correo al cliente,4,0.79,20,1,0,0,0,0,move_to_next_week,21
+user_006,goal_017,task_257,Enviar invitaciones,2,0.38,10,0,1,0,0,0,extend_duration,10
+user_003,goal_011,task_258,Enviar invitaciones,3,0.29,15,1,0,0,0,1,reschedule_later_today,20
+user_009,goal_025,task_259,Enviar correo al cliente,3,0.13,14,0,1,1,0,0,move_to_next_week,22
+user_007,goal_018,task_260,Enviar invitaciones,3,0.11,20,1,1,0,0,0,move_to_next_week,21
+user_005,goal_010,task_261,Enviar correo al cliente,5,0.88,22,0,0,1,0,0,move_to_next_week,23
+user_004,goal_027,task_262,Enviar correo al cliente,3,0.57,6,0,1,1,1,0,move_to_next_week,6
+user_009,goal_025,task_263,Enviar correo al cliente,3,0.13,18,0,0,1,0,0,move_to_tomorrow,19
+user_009,goal_022,task_264,Enviar invitaciones,3,0.70,8,0,1,0,0,1,move_to_next_week,18
+user_004,goal_027,task_265,Enviar invitaciones,3,0.57,7,0,1,1,0,0,move_to_tomorrow,7
+user_009,goal_022,task_266,Pagar cuentas bancarias,3,0.70,21,1,0,1,0,0,move_to_next_week,21
+user_006,goal_018,task_267,Enviar correo al cliente,4,0.50,22,0,0,1,0,0,extend_duration,22
+user_010,goal_040,task_268,Pagar facturas bancarias,1,0.23,16,1,0,0,0,0,move_to_next_week,20
+user_001,goal_005,task_269,Comprar medicamentos,4,0.45,7,0,0,1,1,1,move_to_next_week,18
+user_002,goal_023,task_270,Enviar correo al cliente,1,0.08,20,1,1,1,0,0,move_to_next_week,23
+user_010,goal_011,task_271,Enviar invitaciones,4,0.65,11,0,0,1,0,0,move_to_tomorrow,19
+user_008,goal_033,task_272,Enviar invitaciones,4,0.16,12,1,0,0,0,0,extend_duration,12
+user_004,goal_006,task_273,Enviar correo al cliente,4,0.52,22,0,1,1,0,0,extend_duration,22
+user_002,goal_025,task_274,Enviar invitaciones,5,0.19,19,0,1,0,0,0,move_to_next_week,21
+user_010,goal_035,task_275,Preparar la cena,5,0.67,11,0,0,1,0,1,move_to_tomorrow,19
+user_002,goal_026,task_276,Comprar víveres,4,0.20,8,1,0,1,0,0,do_now,8
+user_010,goal_011,task_277,Enviar invitaciones,4,0.65,19,1,0,1,0,0,move_to_next_week,22
+user_007,goal_023,task_278,Enviar correo al cliente,1,0.08,14,1,1,1,0,0,extend_duration,14
+user_009,goal_030,task_279,Enviar invitaciones,4,0.23,10,0,0,1,0,0,do_now,10
+user_001,goal_002,task_280,Enviar correo al cliente,4,0.79,21,1,0,0,0,0,move_to_tomorrow,22
+user_007,goal_023,task_281,Llamar a mamá,1,0.08,16,1,0,1,0,0,extend_duration,16
+user_001,goal_002,task_282,Enviar correo al cliente,4,0.79,21,1,0,0,0,0,move_to_tomorrow,22
+user_010,goal_035,task_283,Enviar invitaciones,5,0.67,15,1,0,0,0,0,move_to_next_week,18
+user_009,goal_022,task_284,Enviar invitaciones,3,0.70,11,0,1,0,0,0,move_to_next_week,11
+user_002,goal_026,task_285,Enviar correo al cliente,4,0.20,22,1,0,1,0,0,move_to_next_week,22
+user_003,goal_011,task_286,Enviar correo al cliente,3,0.29,19,0,0,1,0,0,move_to_tomorrow,19
+user_002,goal_026,task_287,Enviar invitaciones,4,0.20,15,0,1,0,0,0,move_to_next_week,18
+user_002,goal_006,task_288,Enviar correo al cliente,4,0.11,7,1,1,1,0,0,do_now,7
+user_004,goal_027,task_289,Enviar correo al cliente,3,0.57,20,1,1,1,0,0,move_to_tomorrow,23
+user_009,goal_030,task_290,Enviar correo al cliente,5,0.23,15,1,1,0,0,0,move_to_next_week,23
+user_001,goal_004,task_291,Enviar correo al cliente,3,0.52,22,0,0,1,0,1,reschedule_later_today,22
+user_001,goal_005,task_292,Enviar correo al cliente,4,0.45,17,0,0,1,0,0,move_to_next_week,21
+user_006,goal_018,task_293,Enviar invitaciones,4,0.50,13,0,0,1,0,0,extend_duration,13
+user_005,goal_009,task_294,Leer un libro,2,0.54,22,0,0,1,0,1,reschedule_later_today,23
+user_001,goal_005,task_295,Enviar invitaciones,4,0.45,11,1,0,0,0,0,do_now,11
+user_008,goal_034,task_296,Enviar correo al cliente,1,0.38,21,0,1,1,0,0,move_to_tomorrow,22
+user_009,goal_023,task_297,Comprar víveres,2,0.70,21,1,1,0,0,0,extend_duration,21
+user_007,goal_023,task_298,Comprar víveres,1,0.08,9,0,1,1,0,0,extend_duration,9
+user_004,goal_021,task_299,Enviar correo al cliente,4,0.79,19,1,0,1,0,0,extend_duration,19
+user_007,goal_028,task_300,Comprar víveres,3,0.08,21,1,0,1,0,0,extend_duration,21
+user_003,goal_011,task_301,Enviar correo al cliente,3,0.29,15,0,1,0,0,0,move_to_next_week,18
+user_006,goal_018,task_302,Enviar invitaciones,4,0.50,8,1,0,0,0,0,do_now,8
+user_001,goal_005,task_303,Enviar invitaciones,4,0.45,6,1,0,0,0,0,do_now,6
+user_005,goal_009,task_304,Enviar invitaciones,2,0.54,19,0,1,0,0,0,move_to_next_week,21
+user_002,goal_023,task_305,Comprar víveres,1,0.08,22,1,1,1,0,0,move_to_next_week,23
+user_006,goal_016,task_306,Enviar correo al cliente,2,0.38,20,0,1,0,0,0,move_to_next_week,22
+user_006,goal_017,task_307,Enviar correo al cliente,2,0.38,16,0,0,1,0,0,extend_duration,16
+user_002,goal_023,task_308,Enviar invitaciones,1,0.08,13,0,1,0,0,0,move_to_next_week,13
+user_008,goal_033,task_309,Enviar invitaciones,4,0.16,15,1,0,0,0,0,move_to_tomorrow,21
+user_001,goal_003,task_310,Enviar correos,4,0.47,8,0,0,1,1,0,move_to_tomorrow,18
+user_007,goal_018,task_311,Enviar invitaciones,3,0.11,17,1,0,0,0,0,move_to_tomorrow,18
+user_003,goal_011,task_312,Enviar invitaciones,3,0.29,19,1,0,0,0,1,reschedule_later_today,19
+user_008,goal_032,task_313,Enviar invitaciones,5,0.83,11,0,1,0,0,0,move_to_next_week,12
+user_010,goal_041,task_314,Enviar correo al cliente,2,0.15,10,1,1,1,1,0,do_now,10
+user_004,goal_027,task_315,Enviar invitaciones,3,0.57,21,0,1,1,0,0,move_to_tomorrow,23
+user_002,goal_025,task_316,Enviar invitaciones,5,0.19,17,1,0,0,0,0,move_to_next_week,23
+user_010,goal_041,task_317,Enviar invitaciones,2,0.15,22,0,1,1,0,0,move_to_tomorrow,22
+user_001,goal_003,task_318,Enviar invitaciones,4,0.47,18,0,0,1,0,0,move_to_tomorrow,22
+user_008,goal_032,task_319,Enviar invitaciones,5,0.83,13,1,0,1,0,0,move_to_next_week,18
+user_003,goal_011,task_320,Enviar invitaciones,3,0.29,8,0,1,0,0,0,move_to_next_week,18
+user_010,goal_040,task_321,Enviar correo al cliente,1,0.23,17,1,1,1,0,0,do_now,17
+user_005,goal_025,task_322,Enviar invitaciones,2,0.13,11,0,0,1,0,0,move_to_tomorrow,21
+user_008,goal_030,task_323,Enviar invitaciones,5,0.23,14,0,0,1,0,0,move_to_next_week,18
+user_002,goal_027,task_324,Enviar invitaciones,4,0.03,22,1,1,1,0,0,move_to_next_week,23
+user_003,goal_011,task_325,Enviar invitaciones,3,0.29,16,1,0,0,0,0,move_to_next_week,22
+user_001,goal_001,task_326,Enviar invitaciones,2,0.47,19,0,1,0,1,0,move_to_next_week,19
+user_005,goal_009,task_327,Enviar invitaciones,2,0.54,9,0,1,0,0,0,move_to_next_week,12
+user_010,goal_041,task_328,Enviar invitaciones,2,0.15,17,1,1,1,0,0,do_now,17
+user_008,goal_032,task_329,Enviar invitaciones,5,0.83,16,1,0,1,0,0,extend_duration,16
+user_007,goal_028,task_330,Enviar invitaciones,3,0.08,7,1,1,1,0,0,do_now,7
+user_004,goal_027,task_331,Enviar invitaciones,3,0.57,6,0,1,1,0,0,move_to_next_week,6
+user_005,goal_009,task_332,Enviar invitaciones,2,0.54,12,1,1,1,0,1,reschedule_later_today,12
+user_006,goal_017,task_333,Enviar invitaciones,2,0.38,22,0,1,0,0,0,move_to_next_week,22
+user_003,goal_011,task_334,Enviar invitaciones,3,0.29,21,0,0,1,0,0,move_to_next_week,23
+user_009,goal_025,task_335,Enviar invitaciones,3,0.13,14,1,0,1,0,0,move_to_next_week,18
+user_001,goal_005,task_336,Enviar invitaciones,4,0.45,10,0,1,0,0,0,move_to_next_week,12
+user_008,goal_032,task_337,Enviar invitaciones,5,0.83,12,0,1,0,0,0,move_to_next_week,12
+user_010,goal_041,task_338,Enviar invitaciones,2,0.15,15,0,1,0,0,0,move_to_next_week,15
+user_006,goal_018,task_339,Enviar invitaciones,4,0.50,18,1,1,0,0,0,move_to_next_week,22
+user_007,goal_023,task_340,Enviar invitaciones,1,0.08,18,1,0,0,0,0,move_to_next_week,18
+user_010,goal_041,task_341,Enviar correo al cliente,2,0.15,12,1,1,0,0,0,do_now,12
+user_003,goal_011,task_342,Enviar correo al cliente,3,0.29,10,1,1,1,0,0,move_to_tomorrow,18
+user_005,goal_025,task_343,Enviar invitaciones,2,0.13,13,0,0,1,0,0,move_to_next_week,18
+user_010,goal_040,task_344,Enviar invitaciones,1,0.23,8,0,0,1,0,0,move_to_next_week,23
+user_005,goal_009,task_345,Enviar invitaciones,2,0.54,13,1,0,1,0,0,move_to_tomorrow,23
+user_010,goal_040,task_346,Enviar correo al cliente,1,0.23,20,0,0,1,0,0,move_to_tomorrow,23
+user_007,goal_028,task_347,Enviar invitaciones,3,0.08,11,0,0,1,0,0,move_to_next_week,18
+user_005,goal_009,task_348,Enviar correo al cliente,2,0.54,8,1,0,0,0,0,do_now,8
+user_005,goal_009,task_349,Enviar correo al cliente,2,0.54,9,0,0,1,0,0,move_to_next_week,18
+user_003,goal_011,task_350,Enviar invitaciones,3,0.29,17,0,1,0,0,0,move_to_next_week,17
+user_005,goal_010,task_351,Enviar invitaciones,5,0.88,9,0,0,1,0,0,move_to_next_week,21
+user_005,goal_010,task_352,Enviar correo al cliente,5,0.88,21,1,0,0,0,0,do_now,21
+user_005,goal_010,task_353,Enviar invitaciones,5,0.88,22,0,0,1,0,0,extend_duration,22
+user_003,goal_011,task_354,Enviar correo al cliente,3,0.29,13,0,1,0,0,0,move_to_next_week,18
+user_010,goal_040,task_355,Enviar correo al cliente,1,0.23,12,1,1,1,0,0,do_now,12
+user_005,goal_009,task_356,Enviar correo al cliente,2,0.54,21,1,0,0,0,0,do_now,21
+user_003,goal_012,task_357,Enviar correo al cliente,3,0.29,9,0,1,1,0,0,move_to_next_week,9
+user_010,goal_040,task_358,Enviar invitaciones,1,0.23,22,1,1,0,0,0,move_to_tomorrow,22
+user_003,goal_012,task_359,Enviar invitaciones,3,0.29,16,0,1,0,0,0,move_to_next_week,16
+user_005,goal_009,task_360,Enviar correo al cliente,2,0.54,10,1,1,0,0,0,move_to_tomorrow,23
+user_009,goal_025,task_361,Enviar invitaciones,3,0.13,9,1,1,0,0,0,do_now,9
+user_003,goal_012,task_362,Enviar invitaciones,3,0.29,16,0,0,1,0,0,move_to_next_week,21
+user_006,goal_018,task_363,Enviar invitaciones,4,0.50,20,0,0,1,0,0,move_to_next_week,23
+user_003,goal_011,task_364,Enviar invitaciones,3,0.29,18,0,1,0,0,0,move_to_tomorrow,19
+user_005,goal_009,task_365,Enviar correo al cliente,2,0.54,20,0,0,1,0,0,move_to_next_week,23
+user_006,goal_012,task_366,Enviar correo al cliente,5,0.29,9,1,0,1,0,0,do_now,9
+user_010,goal_035,task_367,Enviar invitaciones,5,0.67,9,0,1,0,0,0,move_to_next_week,22
+user_005,goal_009,task_368,Enviar correo al cliente,2,0.54,6,1,1,1,0,0,do_now,6
+user_002,goal_026,task_369,Enviar correo al cliente,4,0.20,15,0,0,1,0,0,move_to_tomorrow,15
+user_010,goal_035,task_370,Enviar invitaciones,5,0.67,18,1,1,0,0,0,move_to_tomorrow,21
+user_008,goal_032,task_371,Enviar correo al cliente,5,0.83,12,1,1,0,0,0,move_to_next_week,16
+user_010,goal_040,task_372,Enviar correo al cliente,1,0.23,22,0,1,0,0,0,move_to_tomorrow,22
+user_004,goal_006,task_373,Enviar correo al cliente,4,0.52,9,1,0,0,0,0,do_now,9
+user_005,goal_025,task_374,Enviar correo al cliente,2,0.13,19,0,1,1,0,0,move_to_next_week,19
+user_008,goal_033,task_375,Enviar invitaciones,4,0.16,15,1,0,0,0,0,move_to_tomorrow,17
+user_008,goal_033,task_376,Enviar correo al cliente,4,0.16,6,1,0,0,0,0,do_now,6
+user_005,goal_025,task_377,Enviar correo al cliente,2,0.13,7,1,0,0,0,0,do_now,7
+user_009,goal_023,task_378,Enviar invitaciones,2,0.70,12,0,1,0,0,0,move_to_next_week,14
+user_004,goal_027,task_379,Enviar correo al cliente,3,0.57,21,0,0,1,0,0,extend_duration,21
+user_004,goal_007,task_380,Enviar invitaciones,5,0.42,16,1,1,1,0,0,move_to_next_week,17
+user_010,goal_040,task_381,Enviar invitaciones,1,0.23,17,1,0,1,0,0,do_now,17
+user_002,goal_027,task_382,Enviar invitaciones,4,0.03,12,1,0,0,0,0,move_to_next_week,18
+user_006,goal_017,task_383,Enviar correo al cliente,2,0.38,17,0,1,0,0,0,move_to_next_week,18
+user_005,goal_025,task_384,Enviar correos,2,0.13,8,0,1,0,0,0,move_to_next_week,8
+user_010,goal_040,task_385,Enviar invitaciones,1,0.23,14,0,0,1,0,0,move_to_next_week,17
+user_005,goal_010,task_386,Enviar invitaciones,5,0.88,8,1,1,1,0,0,move_to_next_week,19
+user_008,goal_031,task_387,Enviar invitaciones,4,0.46,9,1,0,1,0,0,do_now,9
+user_006,goal_012,task_388,Enviar correos,5,0.29,16,0,1,0,0,0,move_to_next_week,16
+user_003,goal_011,task_389,Enviar correos,3,0.29,17,0,0,1,0,0,move_to_next_week,19
+user_008,goal_034,task_390,Enviar invitaciones,1,0.38,21,0,1,1,0,0,move_to_next_week,23
+user_008,goal_031,task_391,Enviar correos,4,0.46,9,0,1,0,0,0,move_to_next_week,16
+user_006,goal_016,task_392,Enviar correos,2,0.38,15,1,1,1,0,0,move_to_next_week,18
+user_001,goal_002,task_393,Enviar invitaciones,4,0.79,21,0,1,0,0,0,move_to_next_week,23
+user_001,goal_003,task_394,Enviar correos,4,0.47,16,0,1,1,0,0,move_to_next_week,18
+user_005,goal_010,task_395,Enviar invitaciones,5,0.88,10,1,0,0,0,0,do_now,10
+user_009,goal_023,task_396,Enviar correos,2,0.70,15,0,0,1,0,0,move_to_next_week,23
+user_006,goal_013,task_397,Enviar invitaciones,2,0.11,7,1,1,1,0,0,do_now,7
+user_001,goal_003,task_398,Enviar correos,4,0.47,7,0,0,1,0,0,move_to_tomorrow,19
+user_001,goal_005,task_399,Enviar correos,4,0.45,12,1,0,0,0,0,move_to_next_week,12
+user_007,goal_028,task_400,Enviar invitaciones,3,0.08,9,0,1,0,0,0,move_to_next_week,18
+user_001,goal_005,task_401,Enviar correos,4,0.45,10,1,0,0,0,0,move_to_next_week,23
+user_004,goal_026,task_402,Enviar correos,3,0.20,14,1,0,1,0,0,move_to_tomorrow,18
+user_008,goal_033,task_403,Enviar correos,4,0.16,13,0,1,0,0,0,move_to_tomorrow,17
+user_003,goal_011,task_404,Enviar correos,3,0.29,9,0,1,1,0,0,move_to_next_week,18
+user_001,goal_002,task_405,Enviar correo al cliente,4,0.79,12,0,0,1,1,0,move_to_tomorrow,22
+user_003,goal_011,task_406,Enviar correos,3,0.29,21,0,0,1,0,0,move_to_next_week,23
+user_008,goal_034,task_407,Enviar correos,1,0.38,7,0,0,1,0,0,move_to_tomorrow,19
+user_002,goal_026,task_408,Enviar correo al cliente,4,0.20,21,0,1,0,0,0,move_to_next_week,23
+user_005,goal_009,task_409,Enviar correos,2,0.54,18,0,1,1,0,0,move_to_next_week,23
+user_005,goal_009,task_410,Enviar correos,2,0.54,14,0,1,1,0,0,move_to_tomorrow,23
+user_007,goal_018,task_411,Enviar correos,3,0.11,15,1,1,0,0,0,move_to_next_week,22
+user_009,goal_025,task_412,Enviar correos,3,0.13,10,1,1,1,0,0,do_now,10
+user_005,goal_009,task_413,Enviar correos,2,0.54,15,1,0,1,0,0,move_to_next_week,15
+user_009,goal_025,task_414,Enviar correos,3,0.13,12,0,1,0,0,0,move_to_next_week,12
+user_010,goal_041,task_415,Enviar correos,2,0.15,12,1,1,1,0,0,do_now,12
+user_009,goal_025,task_416,Enviar correos,3,0.13,13,0,1,0,0,0,move_to_next_week,23
+user_007,goal_026,task_417,Enviar correos,5,0.11,9,1,1,1,0,0,move_to_next_week,12
+user_004,goal_027,task_418,Enviar correos,3,0.57,9,0,1,0,0,1,reschedule_later_today,23
+user_002,goal_027,task_419,Enviar correos,4,0.03,7,1,1,1,0,1,do_now,7
+user_010,goal_040,task_420,Enviar correos,1,0.23,17,1,1,1,0,0,do_now,17
+user_008,goal_033,task_421,Enviar correos,4,0.16,16,1,0,0,0,0,move_to_next_week,22
+user_010,goal_040,task_422,Enviar correos,1,0.23,18,1,0,0,0,0,move_to_next_week,21
+user_010,goal_040,task_423,Enviar correos,1,0.23,16,0,0,1,0,0,move_to_next_week,16
+user_006,goal_018,task_424,Enviar correos,4,0.50,16,0,1,0,0,0,move_to_next_week,20
+user_004,goal_021,task_425,Enviar correos,4,0.79,9,0,1,1,0,0,move_to_next_week,12
+user_010,goal_040,task_426,Enviar correos,1,0.23,16,1,1,1,0,0,do_now,16
+user_006,goal_019,task_427,Enviar correos,3,0.11,18,1,0,0,0,0,move_to_next_week,22
+user_002,goal_027,task_428,Enviar correos,4,0.03,14,1,1,1,0,0,do_now,14
+user_010,goal_040,task_429,Enviar correos,1,0.23,16,1,0,0,0,0,move_to_next_week,20
+user_006,goal_018,task_430,Enviar correos,4,0.50,19,0,0,1,0,0,move_to_next_week,22
+user_010,goal_040,task_431,Enviar correos,1,0.23,9,0,1,1,0,0,move_to_next_week,23
+user_010,goal_040,task_432,Enviar correos,1,0.23,21,0,0,1,0,0,move_to_next_week,22
+user_010,goal_040,task_433,Enviar correos,1,0.23,21,1,1,0,0,0,move_to_next_week,22
+user_008,goal_033,task_434,Enviar correos,4,0.16,16,1,0,0,0,0,extend_duration,16
+user_008,goal_033,task_435,Enviar correos,4,0.16,6,1,0,0,0,0,do_now,6
+user_008,goal_033,task_436,Enviar correos,4,0.16,11,1,1,1,0,0,do_now,11
+user_008,goal_033,task_437,Enviar correos,4,0.16,10,0,1,0,0,0,move_to_next_week,23
+user_008,goal_033,task_438,Enviar correos,4,0.16,8,0,0,1,0,0,move_to_tomorrow,18
+user_008,goal_033,task_439,Enviar correos,4,0.16,22,1,1,1,0,0,reschedule_later_today,22
+user_008,goal_033,task_440,Enviar correos,4,0.16,11,1,0,0,0,0,do_now,11
+user_010,goal_035,task_441,Enviar correos,5,0.67,19,1,0,0,0,0,move_to_tomorrow,19
+user_010,goal_035,task_442,Enviar correos,5,0.67,11,0,0,1,0,0,move_to_tomorrow,19
+user_010,goal_035,task_443,Enviar correos,5,0.67,12,0,1,0,0,0,move_to_next_week,21
+user_010,goal_035,task_444,Enviar correos,5,0.67,13,1,1,1,0,0,do_now,13
+user_010,goal_035,task_445,Enviar correos,5,0.67,18,0,1,1,0,0,move_to_tomorrow,21
+user_010,goal_035,task_446,Enviar correos,5,0.67,15,1,1,0,0,0,move_to_next_week,22
+user_010,goal_035,task_447,Enviar correos,5,0.67,17,0,0,1,0,0,move_to_next_week,22
+user_010,goal_035,task_448,Enviar correos,5,0.67,20,0,1,1,0,0,move_to_tomorrow,22
+user_010,goal_035,task_449,Enviar correos,5,0.67,16,0,1,1,0,0,move_to_tomorrow,18
+user_010,goal_035,task_450,Enviar correos,5,0.67,13,1,0,0,0,0,extend_duration,13
+user_010,goal_035,task_451,Enviar correos,5,0.67,20,1,0,0,0,0,extend_duration,20
+user_010,goal_035,task_452,Enviar correos,5,0.67,19,1,1,1,0,0,do_now,19
+user_010,goal_035,task_453,Enviar correos,5,0.67,21,1,0,1,0,0,move_to_tomorrow,23
+user_010,goal_035,task_454,Enviar correos,5,0.67,22,0,0,1,0,0,move_to_tomorrow,22
+user_010,goal_035,task_455,Enviar correos,5,0.67,18,1,1,0,0,0,do_now,18
+user_010,goal_035,task_456,Enviar correos,5,0.67,22,0,1,1,0,0,move_to_next_week,22
+user_010,goal_035,task_457,Enviar correos,5,0.67,20,1,0,0,0,0,extend_duration,20
+user_010,goal_035,task_458,Enviar correos,5,0.67,19,1,1,1,0,0,move_to_next_week,22
+user_010,goal_035,task_459,Enviar correos,5,0.67,16,1,0,0,0,0,do_now,16
+user_010,goal_035,task_460,Enviar correos,5,0.67,13,1,0,1,0,0,move_to_tomorrow,23
+user_010,goal_035,task_461,Enviar correos,5,0.67,17,1,0,0,0,0,do_now,17
+user_010,goal_035,task_462,Enviar correos,5,0.67,16,0,0,1,0,0,move_to_next_week,16
+user_010,goal_035,task_463,Enviar correos,5,0.67,20,1,0,0,0,0,do_now,20
+user_010,goal_035,task_464,Enviar correos,5,0.67,13,1,0,0,0,0,do_now,13
+user_010,goal_035,task_465,Enviar correos,5,0.67,13,0,0,1,0,0,move_to_next_week,19
+user_010,goal_035,task_466,Enviar correos,5,0.67,19,1,0,0,0,0,do_now,19
+user_010,goal_035,task_467,Enviar correos,5,0.67,17,1,0,0,0,0,do_now,17
+user_010,goal_035,task_468,Enviar correos,5,0.67,21,0,0,1,0,0,move_to_next_week,23
+user_010,goal_035,task_469,Enviar correos,5,0.67,21,1,0,0,0,0,do_now,21
+user_010,goal_035,task_470,Enviar correos,5,0.67,15,1,0,0,0,0,do_now,15
+user_010,goal_035,task_471,Enviar correos,5,0.67,12,1,1,0,0,0,do_now,12
+user_010,goal_035,task_472,Enviar correos,5,0.67,12,1,1,0,0,0,move_to_next_week,12
+user_010,goal_035,task_473,Enviar correos,5,0.67,18,1,0,0,0,0,do_now,18
+user_010,goal_035,task_474,Enviar correos,5,0.67,15,1,0,0,0,0,do_now,15
+user_010,goal_035,task_475,Enviar correos,5,0.67,17,1,0,0,0,0,move_to_next_week,21
+user_010,goal_035,task_476,Enviar correos,5,0.67,14,1,0,0,0,0,do_now,14
+user_010,goal_035,task_477,Enviar correos,5,0.67,18,1,0,0,0,0,do_now,18
+user_010,goal_035,task_478,Enviar correos,5,0.67,12,1,0,0,0,0,do_now,12
+user_010,goal_035,task_479,Enviar correos,5,0.67,19,1,0,0,0,0,do_now,19
+user_010,goal_035,task_480,Enviar correos,5,0.67,20,1,0,0,0,0,do_now,20
+user_010,goal_035,task_481,Enviar correos,5,0.67,21,1,0,0,0,0,do_now,21
+user_010,goal_035,task_482,Enviar correos,5,0.67,12,1,1,0,0,0,do_now,12
+user_010,goal_035,task_483,Enviar correos,5,0.67,22,1,0,0,0,0,move_to_next_week,23
+user_010,goal_035,task_484,Enviar correos,5,0.67,13,1,0,0,0,0,do_now,13
+user_010,goal_035,task_485,Enviar correos,5,0.67,15,1,0,0,0,0,do_now,15
+user_010,goal_035,task_486,Enviar correos,5,0.67,18,1,0,0,0,0,do_now,18
+user_010,goal_035,task_487,Enviar correos,5,0.67,16,1,0,0,0,0,do_now,16
+user_010,goal_035,task_488,Enviar correos,5,0.67,17,1,0,0,0,0,do_now,17
+user_010,goal_035,task_489,Enviar correos,5,0.67,14,1,1,0,0,0,do_now,14
+user_010,goal_035,task_490,Enviar correos,5,0.67,14,1,0,0,0,0,do_now,14
+user_010,goal_035,task_491,Enviar correos,5,0.67,16,1,1,0,0,0,do_now,16
+user_010,goal_035,task_492,Enviar correos,5,0.67,18,1,0,0,0,0,do_now,18
+user_010,goal_035,task_493,Enviar correos,5,0.67,13,1,0,0,0,0,do_now,13
+user_010,goal_035,task_494,Enviar correos,5,0.67,13,1,0,0,0,0,do_now,13
+user_010,goal_035,task_495,Enviar correos,5,0.67,19,1,0,0,0,0,do_now,19
+user_010,goal_035,task_496,Enviar correos,5,0.67,21,1,0,0,0,0,do_now,21
+user_010,goal_035,task_497,Enviar correos,5,0.67,21,1,0,0,0,0,do_now,21
+user_010,goal_035,task_498,Enviar correos,5,0.67,15,1,0,0,0,0,do_now,15
+user_010,goal_035,task_499,Enviar correos,5,0.67,12,1,0,0,0,0,do_now,12
+user_010,goal_035,task_500,Enviar correos,5,0.67,21,1,0,0,0,0,do_now,21
